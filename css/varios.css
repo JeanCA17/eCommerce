@@ -1,0 +1,42 @@
+.descripcion__varios{
+    text-align: center;
+}
+
+.imagenes__varios{
+    width: 140px;
+    height: 110px;
+}
+
+.varios{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu__varios{
+    list-style: none;
+}
+
+.boton__varios{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.boton__varios.activo{
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.boton__varios:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+@media screen and (max-width: 360px) {
+    .varios{
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

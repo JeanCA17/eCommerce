@@ -1,0 +1,66 @@
+.contacto{
+    width: 50%;
+    margin: 2.2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+.contacto2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Nombre{
+    width: 350px;
+    height: 35px;
+    margin: 15px 0;
+}
+
+.Texto{
+    width: 350px;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.boton__enviar{
+    border: 1px solid #2A7AE4;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+    background-color: #2A7AE4;
+}
+
+.footer{
+    padding: 1.5rem;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto{
+        width: 80%;
+        justify-content: space-around;
+    }
+    .Nombre{
+        width: 250px;
+    }
+    .Texto{
+        width: 250px;
+    }
+    .footer{
+        padding: 0%;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contacto{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

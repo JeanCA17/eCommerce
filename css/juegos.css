@@ -1,0 +1,42 @@
+.descripcion__juegos{
+    text-align: center;
+}
+
+.imagenes__juegos{
+    width: 140px;
+    height: 110px;
+}
+
+.juegos{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu__juegos{
+    list-style: none;
+}
+
+.boton__juegos{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.boton__juegos.activo{
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.boton__juegos:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+@media screen and (max-width: 360px) {
+    .juegos{
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

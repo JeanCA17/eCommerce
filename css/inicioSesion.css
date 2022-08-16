@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    margin: 0  auto;
+}
+
+.iniciar{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.iniciarSesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.password{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.boton__enviar2{
+    width: 400px;
+    height: 35px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 360px) {
+    .email{
+        width: 177px;
+    }
+    .password{
+        width: 177px;
+    }
+    .boton__enviar2{
+        width: 50px;
+    }
+}

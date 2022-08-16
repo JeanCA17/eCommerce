@@ -1,0 +1,83 @@
+.categorias{
+    padding: 2.5rem;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ver{
+    list-style: none;
+}
+
+.boton__ver{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.boton__ver.activo{
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.boton__ver:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+.consolas{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.imagenes__consolas{
+    width: 130px;
+    height: 100px;
+}
+
+.menu__consolas{
+    list-style: none;
+}
+
+.boton__consolas{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.boton__consolas.activo{
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.boton__consolas:hover{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+.descipcion__consolas{
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #none{
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 360px) {
+    .categorias{
+        padding: 0;
+        width: 100%;
+    }
+    .consolas{
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+

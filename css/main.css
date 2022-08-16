@@ -1,0 +1,73 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+footer{
+    margin-top: -35px;
+    background-color: #EAF2FD;
+}
+
+.inicio{
+    width: 100%;
+    height: 400px; 
+    background-image: url(../imagenes/diseño/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anuncio{
+    padding:  5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;   
+}
+
+.boton2{
+    width: 130px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border-color: white;
+}
+
+.h2{
+    font-size: 50px;
+}
+
+.promociones1{
+    font-size: 30 px;
+}
+
+.barra{
+    width: 100%;
+    height: 25px;
+    background-color: #254968;
+    margin: 2.5rem 0;
+}
+
+.titulo__categorias{
+    font-size: 35px;
+}
+
+@media screen and (max-width: 360px) {
+    .inicio{
+        height: 200px;
+        background-size: cover;
+    }
+    .anuncio{
+        padding: 1rem;
+        
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .boton2{
+        width: 100px;
+        height: 30px;
+    }
+    .titulo__categorias{
+        font-size: 25px;
+    }
+    
+}
